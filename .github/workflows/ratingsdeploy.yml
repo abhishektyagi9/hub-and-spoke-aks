@@ -15,7 +15,7 @@ name: App Deploy ratings - GitOps
 on: 
   push:
     branches:
-      - main
+      - master
     paths:
       - 'bookinfo/src/ratings/**'
 
