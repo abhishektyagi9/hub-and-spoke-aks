@@ -15,7 +15,7 @@ name: App Deploy reviews - GitOps
 on: 
   push:
     branches:
-      - main
+      - master
     paths:
       - 'bookinfo/src/reviews/**'
 
