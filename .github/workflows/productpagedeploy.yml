@@ -15,7 +15,7 @@ name: App Deploy productpage - GitOps
 on: 
   push:
     branches:
-      - main
+      - master
     paths:
       - 'bookinfo/src/productpage/**'
 
